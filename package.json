@@ -1,0 +1,25 @@
+{
+  "name": "strictcss",
+  "version": "0.0.1",
+  "description": "strictCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freak613/strictCSS.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Pavel Martynov <martynov.pl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Freak613/strictCSS/issues"
+  },
+  "homepage": "https://github.com/Freak613/strictCSS#readme",
+  "dependencies": {
+    "stage0": "0.0.9"
+  }
+}
