@@ -38,7 +38,8 @@ const styles = strictCSS({
 import layout from 'scrictcss/layout'
 
 // Used to generate spacing for container children
-// As it turns out that neither CSS-grid nor Flexbox are able to give individual per-row/column spacing for content 
+// As it turns out that neither CSS-grid nor Flexbox are able 
+// to give individual per-row/column spacing for content 
 
 layout('column', '* 5px * 10px *')
 // Should be read as 
