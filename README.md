@@ -3,7 +3,7 @@
 Given too much flexibility with CSS, sometimes it's hard to argue about existence of one or another CSS-spec property.
 This project started of thinking about `margin` property. Rather than styling given element, it looks like it's trying to fix parent layout. And it's definitely container's job to align elements and spacing them.
 
-So, let's try to see what happen if we try to create more stricted, opinionated approach on CSS.
+So, let's try to see what happen if we try to create more restricted, opinionated approach on CSS.
 
 These tools utilizes [styles](https://github.com/Freak613/stage0) CSS-in-JS utility and generate styles-friendly code for it.
 
