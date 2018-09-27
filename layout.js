@@ -14,11 +14,13 @@ export default function layout(direction, str) {
         if (spacing === undefined) return
 
         if (direction === 'row') {
-
+            result[` > :nth-child(${chunks.length}n+${idx + 1})`] = {
+                marginRight: spacing
+            }
         } else if (direction === 'column') {
             result[` > :nth-child(${chunks.length}n+${idx + 1})`] = {
                 marginBottom: spacing
-            }            
+            }
         }
     })
     return result
