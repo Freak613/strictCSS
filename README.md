@@ -7,6 +7,9 @@ So, let's try to see what happen if we try to create more stricted, opinionated 
 
 These tools utilizes [styles](https://github.com/Freak613/stage0) CSS-in-JS utility and generate styles-friendly code for it.
 
+## Banned element properties
+- margin
+
 ## strictCSS
 
 ```javascript
