@@ -1,3 +1,12 @@
+/// https://github.com/30-seconds/30-seconds-of-code
+
+const chunk = (arr, size) =>
+  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
+    arr.slice(i * size, i * size + size)
+  );
+
+///
+
 export const layout = (direction, str) => {
     const result = {}
     const chunks = chunk(str.split(' '), 2)
