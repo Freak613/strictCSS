@@ -48,10 +48,10 @@ layout('column', '* 5px * 10px *')
 
 // This will produce styling for container
 // {
-//     ' > :nth-child(2n+1)': {
+//     ' > :nth-child(3n+1)': {
 //         marginBottom: '5px'
 //     }
-//     ' > :nth-child(2n+2)': {
+//     ' > :nth-child(3n+2)': {
 //         marginBottom: '10px'
 //     }
 // }
