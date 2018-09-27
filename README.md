@@ -40,13 +40,19 @@ import layout from 'scrictcss/layout'
 // Used to generate spacing for container children
 // As it turns out that neither CSS-grid nor Flexbox are able to give individual per-row/column spacing for content 
 
-layout('column', '* 5px *')
-// Should be read as 'given group of two elements with 5px spacing between them'
+layout('column', '* 5px * 10px *')
+// Should be read as 
+// - given group of three elements
+//   - with 5px spacing between 1st and 2nd and
+//   - 10px spacing between 2nd and 3rd
 
 // This will produce styling for container
 // {
 //     ' > :nth-child(2n+1)': {
 //         marginBottom: '5px'
+//     }
+//     ' > :nth-child(2n+2)': {
+//         marginBottom: '10px'
 //     }
 // }
 ```
