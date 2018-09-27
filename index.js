@@ -14,7 +14,7 @@ const deepClone = obj => {
 
 ///
 
-export const strictCSS = stylesObj => {
+export default function strictCSS(stylesObj) {
     let needToLogStyles = false
     const validateProp = (prop, c) => {
         if (prop.match(/^margin/)) {

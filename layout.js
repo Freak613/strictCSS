@@ -7,7 +7,7 @@ const chunk = (arr, size) =>
 
 ///
 
-export const layout = (direction, str) => {
+export default function layout(direction, str) {
     const result = {}
     const chunks = chunk(str.split(' '), 2)
     chunks.map(([el, spacing], idx) => {
